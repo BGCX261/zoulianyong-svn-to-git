@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>CKplayer5.2.1简单演示-更多强大的功能请到网站查看</title>
+</head>
+<body>
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+<div id="a1" style="width:380px">正在加载播放器...</div>
+<script type="text/javascript">
+	var s1=new swfupload();
+	s1.ckplayer_url='ckplayer/ckplayer.swf';//播放器文件名
+	s1.ckplayer_flv='http://192.168.0.205:8080/upload/ckplayer5.2.1/musicOne.mp4';//视频地址
+	s1.ckplayer_loadimg='http://www.ckplayer.com/images/loadimg3.jpg';//初始图片地址
+	s1.ckplayer_pauseflash='';//暂停时播放的广告，只支持flash和图片
+	s1.ckplayer_pauseurl='';//暂停时播放图片时需要加一个链接
+	s1.ckplayer_loadadv='';//视频开始前播放的广告，可以是flash,也可是视频格式
+	s1.ckplayer_loadurl='';//视频开始前广告的链接地址，主要针对视频广告，如果是flash可以不填写
+	s1.ckplayer_loadtime=0;//视频开始前广告播放的秒数,只针对flash或图片有效
+	s1.ckplayer_endstatus=1;//视频结束后的动作，0停止播放并发送js,1是不发送js且重新循环播放,2停止播放
+	s1.ckplayer_volume=80;//视频默认音量0-100之间
+	s1.ckplayer_play=0;//视频默认播放还是暂停，0是暂停，1是播放
+	s1.ckplayer_width=600;//播放器宽度
+	s1.ckplayer_height=400;//播放器高度
+	s1.ckplayer_bgcolor='#000000';//播放器背景颜色
+	s1.ckplayer_allowFullScreen=true;//是否支持全屏，true支持，false不支持，默认支持
+	s1.swfwrite('a1');//div的id
+</script>
+<p>有任何使用方面的问题请直接访问<a href="http://www.ckplayer.com" target="_blank">http://www.ckplayer.com</a>或加入QQ群：3627441</p>
+<p>此播放器需要放在网站目录里才可以播放，直接打开页面无法加载播放器界面。此演示只是一个最简单的演示，更多功能演示请到网站查看</p>
+<p>如果你的网站编码是gb2312的，也不需要修改ckplayer/ckplayer.js的编码，实在要修改的话，请在引用该js的时候把 charset="utf-8"去掉</p>
+<p>该播放器完全免费使用，可以用于任何商业或非商业网站，不限制任何功能，如果需要修改右键版权信息的话，请联系QQ：14926108购买可修改右键版权的版本</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CKplayer 网易风格 演示</title>
+</head>
+<body>
+<script type="text/javascript" src="163.js?v5.2ok" charset="utf-8"></script>
+<div id="myvideo" style="width:600px; height:486; display:block; overflow:hidden; background:#000">网易风格 for CKplayer5.2</div>
+<script type="text/javascript">
+	function ckmarqueeadv(){return '<font color="#ffffff">感谢各位关心、支持谭谈交通节目的朋友位，有了你们的支持和关注，才有谭谈交通网持续的发展，我们将尽心尽力为大家奉上最新的节目视频，请大家支持 <a href="http://www.08z.com/" target="_blank">谭谈交通网 www.08z.com</a>，支持谭乔警官：<a href="http://weibo.com/u/1805524974" target="_blank">新浪微博</a> <a href="http://t.qq.com/cd_tanqiao" target="_blank">腾讯微博</a>！ </font>'}
+	var s1=new swfplayer();
+	s1.ckplayer_url='ckplayernew.swf';//播放器文件名
+	s1.ckplayer_flv='http://192.168.0.205:8080/upload/ckplayer5.2.1/musicOne.mp4';//视频地址
+//	s1.ckplayer_flv='rtmp://live.cditv.cn/test|cdtv3';//rtmp视频地址
+	s1.ckplayer_loadimg='';//初始图片地址
+	s1.ckplayer_pauseflash='ttjt.jpg';//暂停时播放的广告，只支持flash和图片
+	s1.ckplayer_pauseurl='http://www.08z.com/';//暂停时播放图片时需要加一个链接
+	s1.ckplayer_loadadv='http://www.dicos.com.cn/flash/food01.flv';//视频开始前播放的广告，可以是flash,也可是视频格式
+	s1.ckplayer_loadurl='http://www.dicos.com.cn/';//视频开始前广告的链接地址，主要针对视频广告，如果是flash可以不填写
+	s1.ckplayer_loadtime=15;//视频开始前广告播放的秒数,只针对flash有效
+	s1.ckplayer_endstatus=2;//视频结束后的动作，0停止播放并发送js,1是不发送js且重新循环播放,2停止播放
+	s1.swfwrite('myvideo');//div的id
+</script>
+<p>欢迎使用CKplayer网页播放器</p>
+<p style="color:#00f">介绍：<a href="http://www.fufuok.com/flv-player-ckplayer.html"><strong>优秀的flv网页播放器，支持高清f4v,mp4,rtmp，支持广告</strong></a></p>
+<p style="color:#00f">下载：<a href="http://www.fufuok.com/ckplayer-skin-sina.html"><strong>CKplayer 新浪(土豆)风格 by Fufu</strong></a></p>
+<p style="color:#00f">下载：<a href="http://www.fufuok.com/ckplayer-skin-mini.html"><strong>CKplayer Mini迷你风格 by Fufu</strong></a></p>
+<p style="color:#00f">下载：<a href="http://www.fufuok.com/ckplayer-skin-163.html"><strong>CKplayer 网易风格 by Fufu</strong></a></p>
+<p style="color:#F00"><strong>注意：本播放器需要放到IIS里方可正常使用，直接打开无法使用</strong></p>
+<p>本播放器为免费软件，您可以放心使用于商业或非商业的网站</p>
+<p>有任何使用方面的问题请直接访问CKplayer官方网站：<a href="http://www.ckplayer.com" target="_blank">http://www.ckplayer.com</a></p>
+</body>
+</html>

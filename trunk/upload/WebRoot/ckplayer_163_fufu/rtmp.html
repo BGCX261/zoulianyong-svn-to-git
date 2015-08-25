@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CKplayer 新浪(土豆)风格 rtmp 演示</title>
+</head>
+<body>
+<script type="text/javascript" src="fufu.js?v5.2ok" charset="utf-8"></script>
+<div id="myvideo" style="width:600px; height:476; display:block; overflow:hidden; background:#000">新浪风格 for CKplayer5.2</div>
+<script type="text/javascript">
+	var s1=new swfplayer();
+	s1.ckplayer_url='ckplayernew.swf';//播放器文件名
+//	s1.ckplayer_flv='http://movie.ks.js.cn/flv/2011/11/8-1.flv';//视频地址
+	s1.ckplayer_flv='rtmp://live.cditv.cn/test|cdtv3';//rtmp视频地址
+	s1.ckplayer_loadimg='';//初始图片地址
+	s1.ckplayer_play=false;
+	s1.swfwrite('myvideo');//div的id
+</script>
+<p>欢迎使用CKplayer网页播放器</p>
+<p style="color:#00f">介绍：<a href="http://www.fufuok.com/flv-player-ckplayer.html"><strong>优秀的flv网页播放器，支持高清f4v,mp4,rtmp，支持广告</strong></a></p>
+<p style="color:#00f">下载：<a href="http://www.fufuok.com/ckplayer-skin-sina.html"><strong>CKplayer 新浪(土豆)风格 by Fufu</strong></a></p>
+<p style="color:#00f">下载：<a href="http://www.fufuok.com/ckplayer-skin-mini.html"><strong>CKplayer Mini迷你风格 by Fufu</strong></a></p>
+<p style="color:#F00"><strong>注意：本播放器需要放到IIS里方可正常使用，直接打开无法使用</strong></p>
+<p>本播放器为免费软件，您可以放心使用于商业或非商业的网站</p>
+<p>有任何使用方面的问题请直接访问CKplayer官方网站：<a href="http://www.ckplayer.com" target="_blank">http://www.ckplayer.com</a></p>
+</body>
+</html>

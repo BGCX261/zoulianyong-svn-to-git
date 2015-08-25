@@ -1,0 +1,151 @@
+/* ----------------------------------------
+	* Filename:     common.css
+	* Description:  Global CSS
+	* Website:      www.CuPlayer.com
+	* PageWidth:    960px
+	* CssCreate:    2010-12-11 23:02 
+------------------------------------------ */
+
+body {margin:0; padding:0;  margin-top:0px;font-size:12px; color:#313131;text-align: left; font-family:"宋体",Verdana, Arial, Helvetica, sans-serif; background:#eff3f4 url(Mbg.jpg) repeat-x left top; }
+div,ul,li,ol,dl,dt,dd,form,img,p{margin: 0; padding: 0; border: 0; }
+li{list-style-type:none;}
+h1,h4,h5,h6{margin: 0; padding: 0; font-size:14px;}
+/* __link */
+a {color: #313131; text-decoration:none;}
+a:link {color: #313131;text-decoration:none;}
+a:visited {color: #313131;text-decoration:none;}
+a:hover {color:red; text-decoration:underline;}
+a:active {color: #313131;}
+/* __color */
+.cWhite,a.cWhite:link,a.cWhite:visited{ color:#ffffff;}
+.cBlue,a.cBlue:link,a.cBlue:visited,a.cBlue:active{color:#066bb7; }
+.cBlue2,a.cBlue2:link,a.cBlue2:visited,a.cBlue2:active{color:#035db8;}
+a.cBlue2:hover{color:red; }
+.cBlack,a.cBlack:link,a.cBlack:visited,a.cBlack:active{color:#000000; }
+.cRed,a.cRed:link,a.cRed:visited{ color:#ff0000; }
+.cGold,a.Gold:link,a.Gold:visited{ color:gold; }
+.cOrange,a.cOrange:link,a.cOrange:visited{ color:orangered; }
+.cGray,a.cGray:link,a.cGray:visited{ color:#6D6359; }
+.cGrayover,a.cGrayover:link,a.cGrayover:visited{ color:#cccccc; text-decoration:line-through;}
+.cOrange2,a.cOrange2:link,a.cOrange2:visited{ color:#9b2f07; }
+
+
+.cGreen2,a.cGreen2:link,a.cGreen2:visited{ color:#336600; }
+.cYellow,a.cYellow:link,a.cYellow:visited{ color:#FFE0B2; }
+.cRed2,a.cRed2:link,a.cRed2:visited{ color:#ce0400; } a.cRed2:hover{ color:#000000; text-decoration:underline; }
+.cRed3,a.cRed3:link,a.cRed3:visited{ color:#96570e; } a.cRed3:hover{ color:red; text-decoration:underline; }
+.cHe,a.cHe:link,a.cHe:visited{ color:#876e25; } a.He:hover{ color:red; text-decoration:underline; }
+
+/* __font */
+.f12{ font-size:12px; }
+.f14{ font-size:14px; }
+.f16{ font-size:16px; }
+.f18{ font-size:18px; }
+.f20{ font-size:20px; }
+.h20{ line-height:20px; }
+.h22{ line-height:22px; }
+.h24{ line-height:24px; }
+.h26{ line-height:26px; }
+.h28{ line-height:28px; }
+.fn { font-weight:normal; }
+.h  { font-family:"黑体"; }
+.b  { font-weight: bold; }
+.en {font-family:Verdana, Arial, Helvetica, sans-serif,"宋体"; }
+/* __float */
+.left { float: left;}
+.right{ float: right;}
+.clear{ clear: both; margin:0; padding:0; border:0;}
+/* __width */
+.w { width:1002px;margin:0 auto; padding: 0; border: 0; }
+.w0{ width:980px;margin:0 auto; padding: 0; border: 0; }
+.bgw {background: #FFF;}
+/* __other */
+.input{border: #ffffff 1px solid;background: #ffffff url(bg_textbox.gif); ;  color:#C50A32; height: 15px; padding:1px;}
+.inputsearch1{border: #bbbcbd 1px solid;background: #ffffff url(bg_textbox.gif); ;  color:#C50A32; height: 20px; padding:1px;} /*search*/
+.btnsearch2{background:url(searchbtnbg2.jpg); height:22px;width:60px; border:none; color:white; }
+.textarea{border: #999999 1px solid; font-size: 12px; color:#000000;}
+.m10b{ margin-bottom:10px;} .m10t{ margin-top:10px;} 
+.p10b{ padding-bottom:10px;} .p10t{ padding-top:10px;} 
+.topbtn {cursor:  hand;background:url(s_btn2.gif); width:50px; height:20px; color:white; padding-top:2px;font-size:12px; border:none;}
+
+/* CuPlayer.com ━━━━━━━━━━━━━━━━━━━━━━ */
+#CuTop {width:960px;margin:0 auto; height:92px;}
+#CuTop div.logo{width:285px; float:left;}
+#CuTop div.menu{width:675px; float:left;} /* menu */
+#CuTop div.menu a,#CuTop div.menu a:visited{width:105px; float:left; text-align:center; display:block;height:60px;line-height:60px;background:url(MenuB1.jpg) no-repeat left top; color:#ffffff;font-size:14px;font-weight:bold; margin-top:15px;margin-right:6px;}
+#CuTop div.menu a:hover{background:url(MenuB1.jpg) no-repeat left bottom; color:#804901; text-decoration:none;}
+#CuTop div.menu a.on,#CuTop div.menu a.on:visited{background:url(MenuB1.jpg) no-repeat left bottom; color:#804901; text-decoration:none;}
+
+#CuFocus {width:960px;margin:0 auto; height:375px; margin-top:23px;background:#a0125e url(Conner2.gif) no-repeat left bottom;} /* CuFocus */
+#CuFocus div.main {background:url(Conner1.gif) no-repeat 0 0;}
+/* CuPlayerMini begin*/
+#CuFocusMini {width:960px;margin:0 auto; height:375px; margin-top:23px;background:#eceded url(Conner2mini.gif) no-repeat left bottom;} /* CuFocus */
+#CuFocusMini div.main {background:url(Conner1mini.gif) no-repeat 0 0;}
+/* CuPlayerMini end*/
+div.main span.conner{ height:20px;}
+div.main div.player{ background:none;width:535px;float:left; text-algin:center; margin-top:15px;}
+div.main div.player img{ display:block;width:476px;margin:0 auto;}
+div.main p.intro{ background:none;width:425px;float:left;margin-top:5px;}
+
+#CuProList {width:960px;margin:0 auto;  margin-top:25px;}
+#CuProList div.tit { background:url(Prolist.jpg) no-repeat left top;height:85px;}
+#CuProList div.tit a,#CuProList div.tit a:visited{ margin-top:25px;display:block; width:100px;float:right;}
+
+#CuProList {width:960px;margin:0 auto; margin-top:25px;}
+#CuProList div.tit2 { background:url(Prolist2.jpg) no-repeat left top;height:85px;}
+
+#CuProList div.titcontact { background:url(titcontact.jpg) no-repeat left top;height:85px;}
+#CuProList div.tithelp { background:url(tithelp.jpg) no-repeat left top;height:85px;}
+#CuProList div.titdownload { background:url(titdownload.jpg) no-repeat left top;height:85px;}
+#CuProList div.titcase { background:url(titcase.jpg) no-repeat left top;height:85px;}
+
+
+#CuProList div.tit2 p,#CuProList div.titcontact p,#CuProList div.tithelp p,#CuProList div.titdownload p,#CuProList div.titcase p{ margin-top:25px;display:block; width:400px;float:right; text-align:right; padding-right:40px; color:#666666;}
+
+#CuProList div.list { background:white;border-left:1px #d7dadb solid;border-right:1px #d7dadb solid;}
+
+#CuProList div.listb { background:white url(Prolistb2.jpg) no-repeat left bottom;}
+
+div.mylist { width:885px;margin:0 auto; border-bottom:1px #dfe1e2 solid; padding-top:20px; height:345px;}
+div.comment { width:885px;margin:0 auto; border-bottom:1px #dfe1e2 solid; }
+
+div.mylist p { width:345px; float:left;  background:url(pbg.gif) no-repeat center center; height:215px; padding-top:17px; }
+
+div.mylist2 { width:885px;margin:0 auto; border-bottom:1px #dfe1e2 solid; padding-top:20px; word-break:break-all;word-wrap:break-word;line-hegiht:26px;}
+div.mylist2 p{ word-break:break-all;word-wrap:break-word;line-height:26px;}
+div.mylist2 p a,div.mylist2 p a:visited{ color:red;}
+pre,code,small{margin: 0; padding: 0; font-size:12px; }
+pre{padding: 10px; font-size:12px;  color:#666666; border:1px #cccccc solid; background:#efefef; }
+code {font-family:Verdana, Arial, Helvetica, sans-serif; line-height:22px; }
+div.mylist2 ul li {font-family:Verdana, Arial, Helvetica, sans-serif; line-height:22px; }
+
+
+a.p190x60 img { width:190px;height:60px; margin-right:0px;}  /*图片列表*/
+a.p190x60 { border:1px #dadada solid; padding:3px;display:block; width:190px; margin:0 auto; background:white; }
+a.p190x60:hover{ border:1px #eb6100 solid; } 
+
+p.logolist { width:212px;float:left; margin-top:10px;}
+
+a.p286x190 img { width:286px;height:190px; }  /* CuProList pic */
+a.p286x190 { border:1px #dadada solid; padding:1px;display:block; width:286px; margin:0 auto; background:white;}
+a.p286x190:hover{ border:1px #eb6100 solid; } 
+
+p a.p286x190 {position:relative;} /* Pic new */
+p a.p286x190 img.new{ width:98px;height:90px ;position:absolute;left:-3px;top:-3px; z-index:90;}
+
+div.mylist dl.list2 { width:540px; float:left;}
+div.mylist dl.list2 dt{ height:30px; padding-left:15px; }
+div.mylist dl.list2 dd{ line-height:24px; padding-left:15px; }
+div.mylist dl.list2 dd.d2{ height:50px; }
+
+div#CuIntro {padding:20px 40px 20px 40px; line-height:26px; font-size:12px;}
+fieldset{border:1px #cccccc solid;padding:10px;margin-bottom:10px;display:block; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+
+#CuBtn {width:100%; margin:0 auto; height:92px; margin-top:25px; background:#222222; clear:both;}
+#CuBtn div.copy{width:960px;margin:0 auto; padding-top:15px; color:#cbcbcb; height:87px; background:url(CuLogobtn.jpg) no-repeat right 8px; line-height:24px;}
+
+#CuBtn div.copy a,#CuBtn div.copy a:visited,#CuBtn div.copy strong{color:#FFCC00;}
+
+
+/* LastUpdate: 2010-12-11 23:02 */
